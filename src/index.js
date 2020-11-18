@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: false }))
 
 app.use(bodyParser.json())
 // your code goes here
-
+console.log("hello");
 
 app.listen(port, () => console.log(`App listening on port ${port}!`))
 
